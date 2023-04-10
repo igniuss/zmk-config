@@ -46,10 +46,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-       &kp TAB        &kp N1        &kp N2        &kp N3        &kp N4        &kp N5             &kp N6      &kp N7  &kp N8  &kp N9        &kp N0      &kp BSPC
-    &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &kp KP_MULTIPLY      &kp N4  &kp N5  &kp N6   &kp KP_PLUS  &kp KP_EQUAL
-&kp LEFT_SHIFT         &none         &none         &none         &none         &none      &kp KP_DIVIDE      &kp N1  &kp N2  &kp N3  &kp KP_MINUS         &none
-                                            &kp LEFT_WIN         &none     &kp SPACE            &kp RET  &kp PERIOD  &kp N0
+       &kp TAB        &kp N1        &kp N2        &kp N3            &kp N4        &kp N5             &kp N6      &kp N7  &kp N8  &kp N9        &kp N0      &kp BSPC
+    &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2      &bt BT_SEL 3  &bt BT_SEL 4    &kp KP_MULTIPLY      &kp N4  &kp N5  &kp N6   &kp KP_PLUS  &kp KP_EQUAL
+&kp LEFT_SHIFT         &none         &none         &none             &none         &none      &kp KP_DIVIDE      &kp N1  &kp N2  &kp N3  &kp KP_MINUS         &none
+                                               &kp LCTRL  &kp LEFT_COMMAND     &kp SPACE            &kp RET  &kp PERIOD  &kp N0
             >;
         };
 
@@ -61,10 +61,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp SINGLE_QUOTE   &kp EXCL    &kp AT     &kp POUND  &kp DLLR         &kp PRCNT            &kp CARET         &kp AMPS      &kp ASTRK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BSPC
-       &kp LCTRL  &kp TILDE  &kp HASH     &kp SLASH  &kp LBRC  &kp LEFT_BRACKET    &kp RIGHT_BRACKET  &kp RIGHT_BRACE  &kp BACKSLASH             &kp MINUS               &kp PLUS  &kp PIPE
-  &kp LEFT_SHIFT      &none     &none         &none     &none             &none                &none            &none          &none             &kp UNDER              &kp EQUAL     &none
-                                       &kp LEFT_WIN     &none         &kp SPACE              &kp RET            &none       &kp RALT
+&kp SINGLE_QUOTE   &kp EXCL    &kp AT  &kp POUND          &kp DLLR         &kp PRCNT            &kp CARET         &kp AMPS      &kp ASTRK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BSPC
+       &kp LCTRL  &kp TILDE  &kp HASH  &kp SLASH          &kp LBRC  &kp LEFT_BRACKET    &kp RIGHT_BRACKET  &kp RIGHT_BRACE  &kp BACKSLASH             &kp MINUS               &kp PLUS  &kp PIPE
+  &kp LEFT_SHIFT      &none     &none      &none             &none             &none                &none            &none          &none             &kp UNDER              &kp EQUAL     &none
+                                       &kp LCTRL  &kp LEFT_COMMAND         &kp SPACE              &kp RET            &none       &kp RALT
             >;
         };
 
