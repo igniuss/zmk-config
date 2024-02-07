@@ -1,0 +1,10 @@
+kind: pipeline
+spec:
+  stages:
+  - name: build
+    spec:
+      runtime:
+        spec: {}
+        type: cloud
+    type: ci
+version: 1
