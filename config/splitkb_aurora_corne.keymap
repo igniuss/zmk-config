@@ -6,23 +6,35 @@
 
 
 / {
-        keymap {
-                compatible = "zmk,keymap";
-                0 {
-        bindings = <
-&kp ESCAPE &kp Q &kp W &kp E &kp R &kp T &kp Y &kp U &kp I &kp O &kp P &kp BACKSPACE &kp TAB &kp A &kp S &kp D &kp F &kp G &kp H &kp J &kp K &kp L &kp SEMICOLON &kp SINGLE_QUOTE &kp LEFT_SHIFT &kp Z &kp X &kp C &kp V &kp B &kp N &kp M &kp COMMA &kp DOT &kp SLASH &kp ENTER &kp LEFT_CONTROL &mo 2 &kp SPACE &kp BACKSPACE &mo 1 &kp RIGHT_ALT
-        >;
-};
-1 {
-        bindings = <
-&kp LEFT_GUI &kp N1 &kp N2 &kp N3 &kp N4 &kp N5 &kp N6 &kp N7 &kp N8 &kp N9 &kp N0 &trans &kp LEFT_SHIFT &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp LEFT_ALT &kp LEFT &kp DOWN &kp UP &kp RIGHT &kp RIGHT_ALT &kp F1 &kp F2 &kp F3 &kp F4 &kp F5 &kp F6 &kp F7 &kp F8 &kp F9 &kp F10 &kp F11 &kp F12 &trans &trans &trans &trans &trans &trans
-        >;
-};
-2 {
-        bindings = <
-&kp GRAVE &kp EXCL &kp AT_SIGN &kp HASH &kp DOLLAR &kp PRCNT &kp CARET &kp AMPS &kp ASTERISK &kp LPAR &kp RPAR &trans &trans &kp TILDE &kp HASH &kp KP_SLASH &kp LBRC &kp LEFT_BRACKET &kp RIGHT_BRACKET &kp RCBR &kp BACKSLASH &kp KP_MINUS &kp KP_PLUS &kp PIPE &trans &kp F20 &kp F20 &kp F20 &kp EXCL &kp LT &kp RT &kp QMARK &kp F20 &kp UNDER &kp EQUAL &trans &trans &trans &trans &trans &trans &trans
-        >;
+    keymap {
+            compatible = "zmk,keymap";
+            0 {
+                bindings = <
+                    &kp ESCAPE
+                    &kp Q &kp W &kp E &kp R &kp T &kp Y                             &kp U &kp I &kp O &kp P &kp BACKSPACE &kp TAB
+                    &kp A &kp S &kp D &kp F &kp G &kp H                             &kp J &kp K &kp L &kp SEMICOLON &kp SINGLE_QUOTE &kp LEFT_SHIFT
+                    &kp Z &kp X &kp C &kp V &kp B &kp N                             &kp M &kp COMMA &kp DOT &kp SLASH &kp ENTER &kp LEFT_CONTROL
+                    &mo 2 &kp SPACE &kp                                             BACKSPACE &mo 1 &kp RIGHT_ALT
+                >;
+            };
+            1 {
+                    bindings = <
+                        &kp LEFT_GUI
+                        &kp N1 &kp N2 &kp N3 &kp N4 &kp N5 &kp N6                               &kp N7 &kp N8 &kp N9 &kp N0 &trans &kp LEFT_SHIFT
+                        &none &none &none &none &none &kp LEFT_ALT                              &kp LEFT &kp DOWN &kp UP &kp RIGHT &kp RIGHT_ALT &kp F1
+                        &kp F2 &kp F3 &kp F4 &kp F5 &kp F6 &kp F7                               &kp F8 &kp F9 &kp F10 &kp F11 &kp F12 &trans
+                        &trans &trans                                                           &trans &trans &trans
+                    >;
+            };
+            2 {
+                bindings = <
+                        &kp GRAVE
+                        &kp EXCL &kp AT_SIGN &kp HASH &kp DOLLAR &kp PRCNT &kp CARET                        &kp AMPS &kp ASTERISK &kp LPAR &kp RPAR &trans &trans
+                        &kp TILDE &kp HASH &kp KP_SLASH &kp LBRC &kp LEFT_BRACKET &kp RIGHT_BRACKET         &kp RCBR &kp BACKSLASH &kp KP_MINUS &kp KP_PLUS &kp PIPE &trans
+                        &none &none &none &kp EXCL &kp LT &kp RT                                            &kp QMARK &none &kp UNDER &kp EQUAL &trans &trans
+                        &trans &trans                                                                       &trans &trans &trans
+                >;
+            };
+    };
 };
 
-        };
-};
