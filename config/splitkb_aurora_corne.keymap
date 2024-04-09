@@ -27,7 +27,7 @@
         2 {
             bindings = <
                 &kp GRAVE &kp EXCL &kp AT_SIGN &kp HASH &kp DOLLAR &kp PRCNT            &kp CARET &kp AMPS &kp ASTERISK &kp LPAR &kp RPAR &trans
-                &trans &kp TILDE &kp HASH &kp KP_SLASH &kp LBRC &kp LEFT_BRACKET        &kp RIGHT_BRACKET &kp RCBR &kp BACKSLASH &kp KP_MINUS &kp KP_PLUS &kp PIPE
+                &trans &kp TILDE &kp HASH &kp KP_SLASH &kp LBRC &kp LEFT_BRACKET        &kp RIGHT_BRACKET &kp RBKT &kp BACKSLASH &kp KP_MINUS &kp KP_PLUS &kp PIPE
                 &trans &none &none &none &kp EXCL &kp LT                                &kp RT &kp QMARK &none &kp UNDER &kp EQUAL &trans
                 &trans &trans &trans                                                    &trans &trans &trans
             >;
